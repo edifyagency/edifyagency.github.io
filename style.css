@@ -7196,6 +7196,22 @@ body:not(.device-touch) .button.button-full strong {
 	margin-top: 6px;
 }
 
+.promo a {
+	color: #FFF;
+}
+
+/*.promo a:link {
+	color: #FFF;
+}
+
+.promo a:visited {
+	color: #FFF;
+}
+
+.promo a:hover {
+	color: ##00A5CF;
+}*/
+
 .promo a.button {
 	position: absolute;
 	top: 50%;
@@ -7262,7 +7278,9 @@ body:not(.device-touch) .button.button-full strong {
 	border-radius: 3px;
 }
 
-.promo.promo-dark h3 { color: #FFF; }
+.promo.promo-dark h3 {
+	color: #FFF;
+}
 
 .promo.promo-dark > h3 span,
 .promo.promo-dark > .container > h3 span {
