@@ -70,7 +70,11 @@
 							<li><a href="programs.html"><div>Programs</div></a></li>
 							<li><a href="subjects.html"><div>Subjects</div></a></li>
 							<li><a href="pricing.html"><div>Pricing</div></a></li>
-							<li class="current"><a href="contact.html"><div>Contact</div></a></li>
+							<li class="current"><a href="contact.html"><div>Contact</div></a>
+								<ul>
+									<li class="current"><a href="#"><div>Careers</div></a></li>
+								</ul>
+							</li>
 						</ul>
 
 					</nav><!-- #primary-menu end -->
@@ -310,13 +314,13 @@
 									<input type="email" id="template-jobform-email" name="template-jobform-email" value="" class="required email sm-form-control" />
 								</div>
 
-								<div class="col_half">
+								<!-- <div class="col_half">
 									<label for="template-jobform-age">Age <small>*</small></label>
 									<input type="text" name="template-jobform-age" id="template-jobform-age" value="" size="22" tabindex="4" class="sm-form-control required" />
-								</div>
+								</div> -->
 
-								<div class="col_half col_last">
-									<label for="template-jobform-city">City <small>*</small></label>
+								<div class="col_full">
+									<label for="template-jobform-city">Address <small>*</small></label>
 									<input type="text" name="template-jobform-city" id="template-jobform-city" value="" size="22" tabindex="5" class="sm-form-control required" />
 								</div>
 
@@ -333,7 +337,7 @@
 									</select>
 								</div>
 
-								<div class="col_half">
+								<!-- <div class="col_half">
 									<label for="template-jobform-salary">Expected Salary</label>
 									<input type="text" name="template-jobform-salary" id="template-jobform-salary" value="" size="22" tabindex="6" class="sm-form-control" />
 								</div>
@@ -348,16 +352,26 @@
 								<div class="col_full">
 									<label for="template-jobform-website">Website (if any)</label>
 									<input type="text" name="template-jobform-website" id="template-jobform-website" value="" size="22" tabindex="8" class="sm-form-control" />
-								</div>
+								</div> -->
 
 								<div class="col_full">
-									<label for="template-jobform-experience">Experience (optional)</label>
+									<label for="template-jobform-experience">Other comments (optional)</label>
 									<textarea name="template-jobform-experience" id="template-jobform-experience" rows="3" tabindex="10" class="sm-form-control"></textarea>
 								</div>
 
-								<div class="col_full">
+								<!-- <div class="col_full">
 									<label for="template-jobform-application">Application <small>*</small></label>
 									<textarea name="template-jobform-application" id="template-jobform-application" rows="6" tabindex="11" class="sm-form-control required"></textarea>
+								</div> -->
+
+								<div class="col_full">
+									<label for="template-jobform-application">Resume <small>*</small></label>
+										<input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+								</div>
+
+								<div class="col_full">
+									<label for="template-jobform-application">Cover Letter <small>*</small></label>
+										<input type="file" id="coverletter" name="coverletter" accept=".pdf,.doc,.docx">
 								</div>
 
 								<div class="col_full hidden">
